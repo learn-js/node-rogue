@@ -1,0 +1,28 @@
+{
+  "name": "node-rogue",
+  "version": "0.0.0",
+  "description": "a roguelike game made with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "beefy game.js:bundle.js --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/learnjs/node-rogue"
+  },
+  "keywords": [
+    "gamezzz"
+  ],
+  "author": "sethvincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/learnjs/node-rogue/issues"
+  },
+  "dependencies": {
+    "crtrdg-entity": "0.0.1",
+    "crtrdg-keyboard": "0.0.2",
+    "crtrdg-gameloop": "0.0.1",
+    "inherits": "~2.0.0"
+  }
+}
